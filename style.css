@@ -4,10 +4,10 @@
 }
 /* header styles */
 header {
-    background-image: url(./images/developer.png);
-    background-size: contain;
+    background-image: url(./images/developer.png), url(./images/header_bg.png);
     background-repeat: no-repeat;
     background-color: #FFF8F3;
+    background-position:left,bottom right ;
 }
 /* nav styles */
 .nav-title{
@@ -20,7 +20,7 @@ header {
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 68px 230px ;
+    padding: 51px 230px ;
 }
 nav ul{
     display: flex;
@@ -43,16 +43,11 @@ nav ul li{
 }
 /* banner styles */
 .banner{
-    padding-left: 230px;
+    padding: 0 60px 0 180px;
     display: flex;
     align-items:center ;
-    background-image: url(./images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: contain;
-    width: fit;
-   
 }
+
 .banner-subtitle{
     font-size: 45px;
     font-weight: 600;
@@ -71,11 +66,7 @@ nav ul li{
 
     
 }
-.banner-image{
-}
-.profile-picture{
-    padding:0;
-}
+
 .btn-outline{
     padding: 18px 23px;
     border-radius: 5px;
