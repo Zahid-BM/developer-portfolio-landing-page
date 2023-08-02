@@ -2,9 +2,14 @@
     font-family: 'Open Sans', sans-serif;
     margin: 0;
 }
+/* header styles */
 header {
+    background-image: url(./images/developer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
     background-color: #FFF8F3;
 }
+/* nav styles */
 .nav-title{
     font-size: 45px;
     font-weight: 800;
@@ -35,4 +40,48 @@ nav ul li{
     font-size: 20px;
     font-weight: 700;
     border: 0;
+}
+/* banner styles */
+.banner{
+    padding-left: 230px;
+    display: flex;
+    align-items:center ;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    width: fit;
+   
+}
+.banner-subtitle{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.banner-text{
+    color: #757575;
+    font-size: 18px;
+    padding-bottom: 30px;
+
+    
+}
+.banner-image{
+}
+.profile-picture{
+    padding:0;
+}
+.btn-outline{
+    padding: 18px 23px;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    font-size: 20px;
+    background-color: #FFF8F3;
+    margin-left: 47px;
 }
