@@ -91,6 +91,7 @@ main {
 }
 .section-title{
     text-align: center;
+    font-size: 35px;
 }
 .section-description{
     text-align: center;
@@ -144,3 +145,48 @@ main {
     color: var(--dark-03, #757575);
 }
 /* resume section styles */
+.resume{
+    margin-bottom: 130px;
+}
+.resume-parent{
+    display: flex;
+    gap: 24px;
+    padding: 113px 0 0 0 ;
+}
+.education{
+    padding: 0 50px;
+}
+.experience{
+    padding: 0 50px;
+}
+.resume-title{
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-subtitle{
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 30px 0 10px 0;
+    
+}
+.resume-year{
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+}
+.resume-description{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    padding: 0 0 30px 0;
+}
+hr{
+    background: #D1D1D1;
+    height: 1px;
+}
+.button-container{
+    text-align: center;
+    padding: 50px 0 113px 0;
+}
